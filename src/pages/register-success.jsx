@@ -9,8 +9,8 @@ export const RegisterSuccess = () => {
         <h1 className="uppercase text-[#0F2A70] text-6xl text-center font-bold pt-16 pb-32">
           alarmbill
         </h1>
-        <div className="flex justify-around items-center w-full">
-          <h2 className="text-center font-extrabold text-3xl">
+        <div className="flex justify-center items-center w-full">
+          <h2 className="text-center font-extrabold text-3xl mr-10">
             Registro realizado con éxito!
           </h2>
           <img src={photo} alt="photo" className="w-96 h-auto" />

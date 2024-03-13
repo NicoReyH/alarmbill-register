@@ -10,8 +10,8 @@ export const RegisterPage = () => {
         <h1 className="uppercase text-[#0F2A70] text-6xl text-center font-bold pt-16 pb-32">
           alarmbill
         </h1>
-        <div className="flex justify-around items-center">
-          <div className="bg-[#AAA9F2] py-10 px-10 rounded-xl">
+        <div className="flex justify-center items-center">
+          <div className="bg-[#AAA9F2] py-10 px-10 rounded-xl mr-8 text-center">
             <h2 className="text-center font-bold text-2xl">
               Registro AlarmBill
             </h2>
@@ -20,14 +20,14 @@ export const RegisterPage = () => {
               name=""
               id=""
               placeholder="e-mail:"
-              className="mb-5 block bg-transparent placeholder-black border-b-2 border-black w-44 h-10"
+              className="mb-5 block bg-transparent placeholder-black border-b-2 border-black w-full h-10"
             />
             <input
               type="text"
               name=""
               id=""
               placeholder="Contraseña:"
-              className="mb-5 block bg-transparent placeholder-black border-b-2 border-black w-44 h-10"
+              className="mb-5 block bg-transparent placeholder-black border-b-2 border-black w-full h-10"
             />
             <Link
               to="/register-success"
